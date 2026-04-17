@@ -170,4 +170,3 @@ export const requestPasswordReset = async (req, res, next) => {
         next(error);
     }
 };
-
