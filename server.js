@@ -9,6 +9,11 @@ import cors from 'cors';
 // Import routes
 import authroutes from './routes/auth.js';
 import userRoutes from './routes/users.js';
+import pantryRoutes from './routes/pantry.js';
+import recipeRoutes from './routes/recipes.js';
+import mealPlanRoutes from './routes/mealPlans.js';
+import shoppingListRoutes from './routes/shoppingList.js';
+
 
 const app = express();
 
