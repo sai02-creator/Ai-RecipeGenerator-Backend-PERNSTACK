@@ -28,8 +28,6 @@ It handles authentication, user data, pantry management, meal planning, and inte
 
 ![Image](https://images.openai.com/static-rsc-4/vjyHxfLo-T4ryrcbi0hc3i48zVXD-QNEY5cNfz1J3qG7yeSrVqdBedIJxqLI0f5b0Bm4kkr0UPS-Y_9fNyJ4R0dRfbrRbjdpMB6JWoNfetIC5KfTTaHkhN89lq_n6_sheLq6J_epLx_0eRzWix1be3AoKxzcgc83jvWMlzbMqHj6x0w74JZgpuL0ngPbiftX?purpose=fullsize)
 
-![Image](https://images.openai.com/static-rsc-4/GG38kpvlZ4lXpan6iweD-Z57qGAm83TRNpu8PcV2MDzdmQI-Iry6jDMGNoZ_Rrn5W3CVYAiejz7PFojRFr37a0ufHT869zuRfXfNTutfh5a0E_3gzLvonhpc4EejJRXP-9-AcS65Hiz03vvOCMg2QG2QbBV9n5G2MEcs9XH_Nu-24EzCq5drEBee2Gr3KKl7?purpose=fullsize)
-
 ```text
 Frontend (S3) → Backend (Docker on EC2) → Database (Neon PostgreSQL)
 ```
