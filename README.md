@@ -1,9 +1,9 @@
 # 🍳 AI Recipe Generator – Backend
 
-![Node.js](https://img.shields.io/badge/Node.js-Backend-green?logo=node.js)
-![Express](https://img.shields.io/badge/Express-API-black?logo=express)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql)
-![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express-API-black?style=for-the-badge&logo=express)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql)
+![Docker](https://img.shields.io/badge/Docker-Container-blue?style=for-the-badge&logo=docker)
 
 ---
 
