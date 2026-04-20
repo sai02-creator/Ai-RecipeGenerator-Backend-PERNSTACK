@@ -51,10 +51,10 @@ Frontend (S3) → Backend (Docker on EC2) → Database (Neon PostgreSQL)
 
 ## 🛠 Tech Stack
 
-**Backend:** Node.js, Express.js
-**Database:** PostgreSQL (Neon)
-**Authentication:** JSON Web Tokens (JWT)
-**DevOps:** Docker, AWS EC2
+**Backend:** Node.js, Express.js  
+**Database:** PostgreSQL (Neon)  
+**Authentication:** JWT  
+**DevOps:** Docker, AWS EC2  
 **AI Integration:** Gemini API
 
 ---
