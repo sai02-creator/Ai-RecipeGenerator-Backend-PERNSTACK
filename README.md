@@ -24,8 +24,6 @@ It handles authentication, user data, pantry management, meal planning, and inte
 
 ## 🏗 Architecture
 
-![Image](https://images.openai.com/static-rsc-4/_G4fjzzpq17fvOYDu7a6vUvJqpHA7x8aKojW8i3bz7RMbUBbIm8HTm9AJKuY87Cj6PpPLo-l9OLGnTjGgPMHE-KnX3SXDbe1RsQkbLPuVRvQj6UbaHoWoBFeanwda4EcxdfhMsaE1NcvCKBVsKHkS_HuBxEDWCq2RZm3s_VfFK0kf_IzBrzf9fBM4Rxv8hMp?purpose=fullsize)
-
 ![Image](https://images.openai.com/static-rsc-4/FbvJVCD6UuI--NrI44r5KNu7jCqsSHjK6zvmOqGvJr5jMoVYC9TEUXni0O0XoO2HMusMB0lHoL9_Ygl9o2Gg-nUSjbaqzPYfNJF3JYGOwm_v3WUAoM9BV90bAIjV9XS1ZoabB0cDoFWfBQYhkXeA27lE72AM4thYOxxKkVxEiot7_6fWddW1UoSC6N-L2TPe?purpose=fullsize)
 
 ![Image](https://images.openai.com/static-rsc-4/vjyHxfLo-T4ryrcbi0hc3i48zVXD-QNEY5cNfz1J3qG7yeSrVqdBedIJxqLI0f5b0Bm4kkr0UPS-Y_9fNyJ4R0dRfbrRbjdpMB6JWoNfetIC5KfTTaHkhN89lq_n6_sheLq6J_epLx_0eRzWix1be3AoKxzcgc83jvWMlzbMqHj6x0w74JZgpuL0ngPbiftX?purpose=fullsize)
