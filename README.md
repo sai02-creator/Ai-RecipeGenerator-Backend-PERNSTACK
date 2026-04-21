@@ -17,50 +17,24 @@
 ## 🌟 Overview
 
 The **AI Recipe Generator Backend** is a production-ready REST API built with Node.js and Express.
-It powers a full-stack application that enables users to generate recipes using AI, manage pantry items, plan meals, and maintain shopping lists.
 
-The backend integrates with **Neon PostgreSQL** for persistent storage and uses JWT for secure authentication.
+It enables users to generate recipes using AI, manage pantry items, plan meals, and maintain shopping lists.
 
 ---
 
 ## 🏗 Architecture
 
 ```text
-Frontend (React, S3) → REST API (Node.js, Express, Docker on EC2) → Neon PostgreSQL
+Frontend (React, S3)
+   ↓
+REST API (Node.js, Express, Docker on EC2)
+   ↓
+Neon PostgreSQL
 ```
 
 ### 🐳 Docker Deployment Architecture
 
-![Docker Architecture](./screenshots/docker-architecture.png)
-
-> Diagram shows containerised Node.js API running on EC2, connected to Neon PostgreSQL and accessed by S3-hosted frontend.
-
----
-
-## 🚀 Features
-
-- 🔐 **Authentication & Authorization (JWT-Based)**
-  Secure login & signup using JSON Web Tokens.
-
-- 🤖 **AI Recipe Generation (Gemini API)**
-  Generate recipes dynamically based on user ingredients.
-
-- 🥫 **Pantry Management APIs (PostgreSQL + REST)**
-  Full CRUD operations for pantry items.
-
-- 📅 **Meal Planning System**
-  Manage structured meal plans with relational data.
-
-- 🛒 **Shopping List Management**
-  Generate shopping lists based on pantry and meals.
-
-- ⚡ **Scalable REST API Architecture**
-  Modular structure with routes, controllers, and middleware.
-
-- 🐳 **Dockerised Deployment**
-  Backend runs inside a container for consistent environments.
-
----
+## ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ## 🛠 Tech Stack
 
@@ -73,6 +47,18 @@ Frontend (React, S3) → REST API (Node.js, Express, Docker on EC2) → Neon Pos
 
 ---
 
+## 🚀 Features
+
+- 🔐 JWT-based authentication
+- 🤖 AI recipe generation
+- 🥫 Pantry management
+- 📅 Meal planning
+- 🛒 Shopping list generation
+- ⚡ Scalable REST API
+- 🐳 Dockerised deployment
+
+---
+
 ## 📡 API Endpoints
 
 ### 🔐 Auth
@@ -82,9 +68,9 @@ Frontend (React, S3) → REST API (Node.js, Express, Docker on EC2) → Neon Pos
 
 ### 🤖 Recipes
 
-- POST `/api/recipes/generate` → Generate recipe using AI
-- POST `/api/recipes` → Save recipe
-- GET `/api/recipes` → Fetch recipes
+- POST `/api/recipes/generate`
+- POST `/api/recipes`
+- GET `/api/recipes`
 
 ### 🥫 Pantry
 
@@ -105,23 +91,18 @@ Frontend (React, S3) → REST API (Node.js, Express, Docker on EC2) → Neon Pos
 
 ---
 
-## 🔄 API Flow Example
+## 🔄 API Flow
 
-1. User sends ingredients → `/api/recipes/generate`
-2. Backend generates recipe using AI
-3. User saves recipe → `/api/recipes`
-4. Data stored in Neon PostgreSQL
-5. User retrieves recipes → `/api/recipes`
+1. Generate recipe → `/api/recipes/generate`
+2. Save recipe → `/api/recipes`
+3. Store in Neon DB
+4. Fetch recipes → `/api/recipes`
 
 ---
 
 ## 📬 API Testing (Thunder Client)
 
-API endpoints tested using Thunder Client (VS Code extension).
-
-### Example: Generate Recipe
-
-**POST** `/api/recipes/generate`
+Example:
 
 ```json
 {
@@ -129,24 +110,11 @@ API endpoints tested using Thunder Client (VS Code extension).
 }
 ```
 
-### Example Response
-
-```json
-{
-  "name": "Spiced Chicken Rice",
-  "description": "A flavourful dish made with rice and aromatic spices",
-  "ingredients": [...],
-  "instructions": [...]
-}
-```
-
 ---
 
 ## 🌐 Live API
 
-```bash
 http://3.25.50.50:8000
-```
 
 ---
 
@@ -172,40 +140,26 @@ npm start
 
 ## 🐳 Docker Setup
 
-### Build Image
-
 ```bash
 docker build -t ai-recipe-backend .
-```
-
-### Run Container
-
-```bash
-docker run -d -p 8000:8000 \
--e DATABASE_URL="your_neon_connection_string" \
--e JWT_SECRET="your_secret_key" \
--e GEMINI_API_KEY="your_gemini_api_key" \
---name ai-backend \
-ai-recipe-backend
+docker run -d -p 8000:8000 ...
 ```
 
 ---
 
 ## ☁️ Deployment
 
-- Backend hosted on AWS EC2
-- Docker container for deployment
-- Neon PostgreSQL for database
-- Connected to S3-hosted frontend
+- AWS EC2
+- Docker container
+- Neon PostgreSQL
 
 ---
 
 ## 🔮 Future Improvements
 
-- Add rate limiting & API security
-- Implement CI/CD pipeline
-- Add logging & monitoring
-- Improve AI prompt optimisation
+- Rate limiting
+- CI/CD
+- Monitoring
 
 ---
 
@@ -213,13 +167,8 @@ ai-recipe-backend
 
 **Sai Chaitanya**
 
-- 🌐 Sydney, Australia
-- 💼 Open to opportunities
-- 🔗 LinkedIn: https://www.linkedin.com/in/sai-chaitanya-73b598284/
-- 💻 GitHub: https://github.com/sai02-creator
+- Sydney, Australia
+- Open to opportunities
+- LinkedIn / GitHub
 
 ---
-
-## ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub!
