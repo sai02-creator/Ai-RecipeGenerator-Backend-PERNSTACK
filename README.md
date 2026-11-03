@@ -150,11 +150,27 @@ Example request:
 
 ---
 
-## 🌐 Live API
+## Deployment Status
 
-http://3.25.50.50:8000
+The application was previously deployed on **Amazon Web Services (AWS)** using an EC2 instance.
 
----
+The AWS deployment has since been decommissioned to avoid ongoing cloud infrastructure costs. The EC2 instance and associated hosting resources have been removed.
+
+The project source code remains available in this repository. Although the live demo is currently unavailable, you can explore the implementation, application structure, and features by reviewing the source code.
+
+**Note:** The application was developed and deployed successfully. Its hosting was discontinued as a cost-management decision, not because of a technical issue.
+
+### AWS Infrastructure Costs
+
+During deployment and operation, the following AWS resources contributed to infrastructure costs:
+
+- **Amazon EC2:** Virtual machine compute charges for hosting the backend application.
+- **Amazon EBS:** Storage charges for the EC2 instance's root volume.
+- **EBS Snapshots:** Charges for storing EC2 volume backups.
+- **Public IPv4 Address:** Charges associated with public IPv4 address usage.
+- **Amazon VPC:** Networking-related public IPv4 usage.
+
+These resources were reviewed and removed where applicable to prevent further hosting expenses.
 
 ## ⚙️ Environment Variables
 
