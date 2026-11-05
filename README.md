@@ -160,6 +160,14 @@ The project source code remains available in this repository. Although the live 
 
 **Note:** The application was developed and deployed successfully. Its hosting was discontinued as a cost-management decision, not because of a technical issue.
 
+## 🎥 Project Demonstration
+
+Watch the full application walkthrough, showcasing the AI recipe generation, pantry management, meal planning, shopping list functionality and full-stack architecture.
+
+[![AI Recipe Generator – Full-Stack PERN Application](https://img.youtube.com/vi/Qm67_6JX5Wg/0.jpg)](https://youtu.be/Qm67_6JX5Wg)
+
+[▶ Watch the Full Demo on YouTube](https://youtu.be/Qm67_6JX5Wg)
+
 ### AWS Infrastructure Costs
 
 During deployment and operation, the following AWS resources contributed to infrastructure costs:
